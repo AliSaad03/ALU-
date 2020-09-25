@@ -1,0 +1,24 @@
+-- Concatenation
+
+library ieee;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity MSBLSB is
+	port (A : in STD_LOGIC_VECTOR (7 downto 0);
+		  B : in STD_LOGIC_VECTOR (7 downto 0);
+		  Z : out STD_LOGIC_VECTOR (9 downto 0));
+end MSBLSB;
+
+architecture behave of MSBLSB is
+begin
+process(A,B)
+begin
+for i in 0 to 7 loop
+Z(i)<= A(i);
+end loop;
+Z(8) <= B(0);
+Z(9) <= B(1);
+end process;
+end behave;

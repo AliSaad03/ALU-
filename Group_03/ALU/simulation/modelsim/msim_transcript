@@ -1,0 +1,135 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ALU_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/TwosComplement.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TwosComplement
+# -- Compiling architecture behave of TwosComplement
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/Equality.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Equality
+# -- Compiling architecture behave of Equality
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/MSBLSB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MSBLSB
+# -- Compiling architecture behave of MSBLSB
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/Maximum.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Maximum
+# -- Compiling architecture behave of Maximum
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/Minimum.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Minimum
+# -- Compiling architecture behave of Minimum
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/EightBitAddition.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EightBitAddition
+# -- Compiling architecture behave of EightBitAddition
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/Subtraction.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Subtraction
+# -- Compiling architecture behave of Subtraction
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/Increment.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Increment
+# -- Compiling architecture behave of Increment
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/Decrement.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity Decrement
+# -- Compiling architecture behave of Decrement
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/CircularRightShift.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CircularRightShift
+# -- Compiling architecture behave of CircularRightShift
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_Group_03.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity ALU_Group_03
+# -- Compiling architecture arch_ALU of ALU_Group_03
+# 
+# vcom -93 -work work {C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_tb_Group_03.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_tb
+# -- Compiling architecture arch_ALU_tb of ALU_tb
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs="+acc" ALU_tb
+# vsim -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ALU_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_tb(arch_alu_tb)
+# Loading ieee.std_logic_arith(body)
+# Loading work.alu_group_03(arch_alu)
+# Loading work.twoscomplement(behave)
+# Loading work.eightbitaddition(behave)
+# Loading work.equality(behave)
+# Loading work.msblsb(behave)
+# Loading work.maximum(behave)
+# Loading work.subtraction(behave)
+# Loading work.minimum(behave)
+# Loading work.decrement(behave)
+# Loading work.increment(behave)
+# Loading ieee.numeric_std(body)
+# Loading work.circularrightshift(behave)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/g1
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /alu_tb/g1
+# Break key hit 
+# Break in ForLoop loop at C:/Users/Ali Saad/Desktop/Group_03/ALU/EightBitAddition.vhd line 20

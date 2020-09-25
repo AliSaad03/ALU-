@@ -1,0 +1,27 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {//Mac/Home/Desktop/ALU/TwosComplement.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/Equality.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/MSBLSB.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/Maximum.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/Minimum.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/EightBitAddition.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/Subtraction.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/Increment.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/Decrement.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/CircularRightShift.vhd}
+vcom -93 -work work {//Mac/Home/Desktop/ALU/ALU_Group_03.vhd}
+
+vcom -93 -work work {//Mac/Home/Desktop/ALU/ALU_tb_Group_03.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L cycloneii -L rtl_work -L work -voptargs="+acc" ALU_tb
+
+add wave *
+view structure
+view signals
+run -all

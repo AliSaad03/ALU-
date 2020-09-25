@@ -1,0 +1,435 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Ali Saad\Desktop\Group_03\ALU\simulation\modelsim
+Ealu_group_03
+Z1 w1575963284
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Ali Saad\Desktop\Group_03\ALU\simulation\modelsim
+Z6 8C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_Group_03.vhd
+Z7 FC:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_Group_03.vhd
+l0
+L5
+V?;gmHFRX[TVR0n52LLSn?1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1575963526.819000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_Group_03.vhd|
+Z11 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_Group_03.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 M?ZO3n_B8WNbbNnkR^OMe0
+!i10b 1
+Aarch_alu
+R2
+R3
+R4
+DEx4 work 12 alu_group_03 0 22 ?;gmHFRX[TVR0n52LLSn?1
+l83
+L15
+VlWaeT]niBh8WAhl`eH9mG0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 P6`<iV5STFmO<dzX:S0EB3
+!i10b 1
+Ealu_tb
+R1
+R3
+R4
+R5
+Z14 8C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_tb_Group_03.vhd
+Z15 FC:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_tb_Group_03.vhd
+l0
+L4
+Vj8GTzXlJBRn30I??3d6bz2
+!s100 U:_[kN^3df<JCW5Oh0SH81
+R8
+31
+!i10b 1
+Z16 !s108 1575963526.913000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_tb_Group_03.vhd|
+Z18 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/ALU_tb_Group_03.vhd|
+R12
+R13
+Aarch_alu_tb
+R3
+R4
+DEx4 work 6 alu_tb 0 22 j8GTzXlJBRn30I??3d6bz2
+l25
+L7
+VJOzee<OHSSWT4Eo4SjXJe2
+!s100 45b>Ib]hMQE2`W@e]QDUB2
+R8
+31
+!i10b 1
+R16
+R17
+R18
+R12
+R13
+Ecircularrightshift
+R1
+Z19 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R3
+R4
+R5
+Z20 8C:/Users/Ali Saad/Desktop/Group_03/ALU/CircularRightShift.vhd
+Z21 FC:/Users/Ali Saad/Desktop/Group_03/ALU/CircularRightShift.vhd
+l0
+L7
+VSofY3?j`9e[T]d3L8lm:A3
+R8
+31
+Z22 !s108 1575963526.726000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/CircularRightShift.vhd|
+Z24 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/CircularRightShift.vhd|
+R12
+R13
+!s100 5LVQYlW8[bkEkazz_:P131
+!i10b 1
+Abehave
+R19
+R3
+R4
+DEx4 work 18 circularrightshift 0 22 SofY3?j`9e[T]d3L8lm:A3
+l13
+L12
+VHobmzkgLB`39afI?SKiBS1
+R8
+31
+R22
+R23
+R24
+R12
+R13
+!s100 bRdZj;@]^;0ZW>?D0M3JO1
+!i10b 1
+Edecrement
+R1
+R2
+R3
+R4
+R5
+Z25 8C:/Users/Ali Saad/Desktop/Group_03/ALU/Decrement.vhd
+Z26 FC:/Users/Ali Saad/Desktop/Group_03/ALU/Decrement.vhd
+l0
+L8
+VKQ]=TM?3S?FlAZE1;h7^W2
+R8
+31
+Z27 !s108 1575963526.648000
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/Decrement.vhd|
+Z29 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/Decrement.vhd|
+R12
+R13
+!s100 YFSiN>ZT`=3A?jXT;PCTP3
+!i10b 1
+Abehave
+R2
+R3
+R4
+DEx4 work 9 decrement 0 22 KQ]=TM?3S?FlAZE1;h7^W2
+l21
+L13
+VAfW4GSZ`Ab:a5QiZ0:o5A1
+R8
+31
+R27
+R28
+R29
+R12
+R13
+!s100 kl3O[HlNNI3=Df^TJWPK]0
+!i10b 1
+Eeightbitaddition
+R1
+R3
+R4
+R5
+Z30 8C:/Users/Ali Saad/Desktop/Group_03/ALU/EightBitAddition.vhd
+Z31 FC:/Users/Ali Saad/Desktop/Group_03/ALU/EightBitAddition.vhd
+l0
+L6
+VO`5=1X<@;lIS_dCdCJb4M0
+R8
+31
+Z32 !s108 1575963526.382000
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/EightBitAddition.vhd|
+Z34 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/EightBitAddition.vhd|
+R12
+R13
+!s100 Edl7H3d3@bjGfNc2FfQ1G0
+!i10b 1
+Abehave
+R3
+R4
+DEx4 work 16 eightbitaddition 0 22 O`5=1X<@;lIS_dCdCJb4M0
+l14
+L13
+V;D_zoZXP59EMeJ`E=3;<d3
+R8
+31
+R32
+R33
+R34
+R12
+R13
+!s100 >zbgb1b7=KkjXY@BlMkm61
+!i10b 1
+Eequality
+R1
+R3
+R4
+R5
+Z35 8C:/Users/Ali Saad/Desktop/Group_03/ALU/Equality.vhd
+Z36 FC:/Users/Ali Saad/Desktop/Group_03/ALU/Equality.vhd
+l0
+L6
+VdW73ncl0?0DTB;A=khWjM2
+R8
+31
+Z37 !s108 1575963526.038000
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/Equality.vhd|
+Z39 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/Equality.vhd|
+R12
+R13
+!s100 ]LEo0;fe>mUoa@G4<L]cP3
+!i10b 1
+Abehave
+R3
+R4
+DEx4 work 8 equality 0 22 dW73ncl0?0DTB;A=khWjM2
+l13
+L12
+VO3V0gYbHmXPe@_:h2GZ1=0
+R8
+31
+R37
+R38
+R39
+R12
+R13
+!s100 Oc03zlGKOgjPE;g;jJRFl3
+!i10b 1
+Eincrement
+R1
+R3
+R4
+R5
+Z40 8C:/Users/Ali Saad/Desktop/Group_03/ALU/Increment.vhd
+Z41 FC:/Users/Ali Saad/Desktop/Group_03/ALU/Increment.vhd
+l0
+L6
+VcbmKBgX2J4W>=6]<9KFkZ0
+R8
+31
+Z42 !s108 1575963526.554000
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/Increment.vhd|
+Z44 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/Increment.vhd|
+R12
+R13
+!s100 gEioeXE`CbWCoGQ_mWC8A3
+!i10b 1
+Abehave
+R3
+R4
+DEx4 work 9 increment 0 22 cbmKBgX2J4W>=6]<9KFkZ0
+l21
+L12
+Va:VMzQnZR2<OHn[X5`X;g2
+R8
+31
+R42
+R43
+R44
+R12
+R13
+!s100 gbA^S8?C3?n?5]CZChZgc2
+!i10b 1
+Emaximum
+R1
+R2
+R3
+R4
+R5
+Z45 8C:/Users/Ali Saad/Desktop/Group_03/ALU/Maximum.vhd
+Z46 FC:/Users/Ali Saad/Desktop/Group_03/ALU/Maximum.vhd
+l0
+L8
+VB2zz?RK5T7zSjSni1Ae@g0
+R8
+31
+Z47 !s108 1575963526.210000
+Z48 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/Maximum.vhd|
+Z49 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/Maximum.vhd|
+R12
+R13
+!s100 gaKzbzX=Jdj5G@9?zc4?o2
+!i10b 1
+Abehave
+R2
+R3
+R4
+DEx4 work 7 maximum 0 22 B2zz?RK5T7zSjSni1Ae@g0
+l23
+L14
+V9k5@>C6lN[_e<ig[3`nEL3
+R8
+31
+R47
+R48
+R49
+R12
+R13
+!s100 `mNL>cNY9ABLBeV6O;RPQ3
+!i10b 1
+Eminimum
+R1
+R2
+R3
+R4
+R5
+Z50 8C:/Users/Ali Saad/Desktop/Group_03/ALU/Minimum.vhd
+Z51 FC:/Users/Ali Saad/Desktop/Group_03/ALU/Minimum.vhd
+l0
+L8
+VBB3z<RP5VaH^[;2D:SXEM3
+R8
+31
+Z52 !s108 1575963526.304000
+Z53 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/Minimum.vhd|
+Z54 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/Minimum.vhd|
+R12
+R13
+!s100 zG:15^n=nOFO2Rbn6>lNL2
+!i10b 1
+Abehave
+R2
+R3
+R4
+DEx4 work 7 minimum 0 22 BB3z<RP5VaH^[;2D:SXEM3
+l23
+L14
+V5k;?QbWWOiAATgG`@n;nj1
+R8
+31
+R52
+R53
+R54
+R12
+R13
+!s100 3PM;b=cJ9UNDEUXN>k8MJ0
+!i10b 1
+Emsblsb
+R1
+R3
+R4
+R5
+Z55 8C:/Users/Ali Saad/Desktop/Group_03/ALU/MSBLSB.vhd
+Z56 FC:/Users/Ali Saad/Desktop/Group_03/ALU/MSBLSB.vhd
+l0
+L6
+VMeoO^3a`MeFz_O[?d`i3P1
+R8
+31
+Z57 !s108 1575963526.117000
+Z58 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/MSBLSB.vhd|
+Z59 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/MSBLSB.vhd|
+R12
+R13
+!s100 A50Y15VCEK;2Fz=<Y=`L22
+!i10b 1
+Abehave
+R3
+R4
+DEx4 work 6 msblsb 0 22 MeoO^3a`MeFz_O[?d`i3P1
+l13
+L12
+Vk?cb38Wz4k73YS9Ba3Mh_0
+R8
+31
+R57
+R58
+R59
+R12
+R13
+!s100 UZWl0oZ3M?Z^Md7<S[:;50
+!i10b 1
+Esubtraction
+R1
+R3
+R4
+R5
+Z60 8C:/Users/Ali Saad/Desktop/Group_03/ALU/Subtraction.vhd
+Z61 FC:/Users/Ali Saad/Desktop/Group_03/ALU/Subtraction.vhd
+l0
+L6
+VY96?X5h1Ko0FEB[U_h?<j0
+R8
+31
+Z62 !s108 1575963526.476000
+Z63 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/Subtraction.vhd|
+Z64 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/Subtraction.vhd|
+R12
+R13
+!s100 KAlobT<Jz5Z80>iP<@JS<0
+!i10b 1
+Abehave
+R3
+R4
+DEx4 work 11 subtraction 0 22 Y96?X5h1Ko0FEB[U_h?<j0
+l27
+L12
+V_XR=EIaGYUI6eOCR>Wnm31
+R8
+31
+R62
+R63
+R64
+R12
+R13
+!s100 YGNQEjeOKH8_OCQoFzhgW0
+!i10b 1
+Etwoscomplement
+R1
+R3
+R4
+R5
+Z65 8C:/Users/Ali Saad/Desktop/Group_03/ALU/TwosComplement.vhd
+Z66 FC:/Users/Ali Saad/Desktop/Group_03/ALU/TwosComplement.vhd
+l0
+L6
+VHL9R^I?G5e<Gn0H_bnaNk0
+R8
+31
+Z67 !s108 1575963525.945000
+Z68 !s90 -reportprogress|300|-93|-work|work|C:/Users/Ali Saad/Desktop/Group_03/ALU/TwosComplement.vhd|
+Z69 !s107 C:/Users/Ali Saad/Desktop/Group_03/ALU/TwosComplement.vhd|
+R12
+R13
+!s100 fWeHdl<5R]P=XKShQM6nX1
+!i10b 1
+Abehave
+R3
+R4
+DEx4 work 14 twoscomplement 0 22 HL9R^I?G5e<Gn0H_bnaNk0
+l20
+L11
+VlBKZ89Y:E20:cDmBPf>Fn3
+R8
+31
+R67
+R68
+R69
+R12
+R13
+!s100 L`JiLl<dgXQOmD1ZQ[L]>0
+!i10b 1
